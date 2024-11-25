@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2021",
+    "lib": ["ES2021"],
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",                   // Diretório de saída da compilação
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,            // Permite importar arquivos JSON como módulos
+    "baseUrl": ".",                       // Base URL para resolver módulos
+    "paths": {
+      "@/*": ["src/*"]                    // Atalhos para os caminhos dos diretórios
+    }
+  },
+  "include": ["src/**/*"],                // Inclui todos os arquivos TypeScript no diretório src
+  "exclude": ["node_modules", "dist"]     // Exclui os diretórios node_modules e dist da compilação
+}

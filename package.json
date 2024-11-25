@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/mongoose": "^10.1.0",
+    "@nestjs/passport": "^10.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/passport-jwt": "^4.0.1"
+  }
+}
